@@ -16,3 +16,24 @@ int y2 = getInt();
 int z2 = getInt();
 double r = Math.Sqrt (Math.Pow (x2 - x1, 2) + Math.Pow (y2 - y1, 2) + Math.Pow (z2 - z1, 2));
 Console.WriteLine (r);
+
+
+// Вариант более подробный для ввода: 
+
+// int getInt() {
+//     return Convert.ToInt32 (Console.ReadLine());
+// }
+// Console.WriteLine ("Введите координаты для точки А по оси Х");
+// int x1 = getInt();
+// Console.WriteLine ("Введите координаты для точки А по оси Y");
+// int y1 = getInt();
+// Console.WriteLine ("Введите координаты для точки А по оси Z");
+// int z1 = getInt();
+// Console.WriteLine ("Введите координаты для точки B по оси Х");
+// int x2 = getInt();
+// Console.WriteLine ("Введите координаты для точки B по оси Y");
+// int y2 = getInt();
+// Console.WriteLine ("Введите координаты для точки B по оси Z");
+// int z2 = getInt();
+// double r = Math.Sqrt (Math.Pow (x2 - x1, 2) + Math.Pow (y2 - y1, 2) + Math.Pow (z2 - z1, 2));
+// Console.WriteLine (r);
